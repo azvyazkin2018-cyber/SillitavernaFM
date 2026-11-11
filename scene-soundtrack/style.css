@@ -1,0 +1,33 @@
+.scene-soundtrack .scene-soundtrack-options {
+    display: grid;
+    gap: 0.65rem;
+    padding-block: 0.5rem;
+}
+
+.scene-soundtrack .scene-soundtrack-field {
+    display: grid;
+    gap: 0.25rem;
+}
+
+.scene-soundtrack .scene-soundtrack-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.scene-soundtrack [hidden] {
+    display: none !important;
+}
+
+.scene-soundtrack p {
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.scene-soundtrack iframe {
+    display: block;
+    width: 100%;
+    height: 166px;
+    border: 0;
+}
